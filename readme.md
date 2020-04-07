@@ -10,7 +10,7 @@ A generator for "eikosanic" scales: 20 tone justly intoned scales made up of all
 (
 Pbind(
     \degree, Pseq((0..19).scramble, inf), // your melody goes here
-    \scale, e, // your scale goes here
+    \scale, ~myEikosany, // your scale goes here
     \root, -3 // semitones relative to 60.midicps, so this is A
 ).play;
 )
